@@ -1,16 +1,23 @@
-# React + Vite
+# Hashtaurante
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1202" height="755" alt="{02970B11-78BD-4946-9E77-AA3C1011022B}" src="https://github.com/user-attachments/assets/63a800de-00da-4289-a6df-b4adf2f28a40" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeto desenvolvido durante o **Intensivão JavaScript da Hashtag Programação**, com foco em **React.js**.  
+A aplicação simula o cardápio digital de um restaurante, exibindo categorias e pratos de forma interativa e responsiva.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS moderno**
+- **Vite** 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💡 Funcionalidades
+
+- Exibição dinâmica das categorias: **Pratos Principais**, **Sobremesas** e **Bebidas**  
+- Lista de cards renderizada conforme a categoria ativa
